@@ -1,0 +1,12 @@
+What follows is a stumbling interactions with the WaveFuction Collapse Algorythm
+Based around the version made here https://github.com/mxgmn/WaveFunctionCollapse
+
+Our initial idea was to take Images of an alphabet and generate new versions of said alphabet
+
+
+We attempted 2 different pathe
+
+First off: To run, You need dotnet by microsoft. Using the command 
+dotnet run WaveFunctionCollapse.csproj
+Will result in trying to create some Maps out of tiles in one style, maps based on a base images
+

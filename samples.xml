@@ -1,0 +1,9 @@
+<samples>
+	<simpletiled name="ColorTile" subset="map" width="100" height="100" periodic="True" screenshots="3"/>
+	<overlapping name="MapGen" N="3" periodic="True" width="200" height="200"/>
+	<overlapping name="MapGen" N="2" periodic="True" width="200" height="200"/>
+	<overlapping name="MapGen 2" N="3" periodic="True" width="200" height="200"/>
+	<overlapping name="MapGen 2" N="2" periodic="True" width="200" height="200"/>
+	
+
+</samples>

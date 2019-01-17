@@ -1,0 +1,17 @@
+<set size="6">
+	<tiles>
+		<tile name="red" weight="1.0"/>
+		<tile name="white" weight="1.0"/>
+		<tile name="blue" weight="1.0"/>
+	</tiles>
+	<neighbors>
+		<neighbor left="blue" right="blue"/>
+		<neighbor left="blue" right="white"/>
+		<neighbor left="blue" right="red"/>
+		<neighbor left="red" right="red"/>
+		<neighbor left="white" right="white"/>
+		
+	</neighbors>
+	<subsets>
+	</subsets>
+</set>

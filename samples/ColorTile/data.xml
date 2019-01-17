@@ -1,0 +1,30 @@
+<set size="6">
+	<tiles>
+		<tile name="red" weight="1.0"/>
+		<tile name="white" weight="1.0"/>
+		<tile name="blue" weight="2.0"/>
+		<tile name="lightGreen" weight="3.0"/>
+		<tile name="darkGreen" weight="1.0"/>
+		<tile name="tan" weight="0.5"/>
+	</tiles>
+	<neighbors>
+		<neighbor left="blue" right="blue"/>
+		<neighbor left="blue" right="tan"/>
+		<neighbor left="tan" right="blue"/>
+		<neighbor left="tan" right="lightGreen"/>
+		<neighbor left="lightGreen" right="lightGreen"/>		
+		<neighbor left="lightGreen" right="tan"/>
+		<neighbor left="lightGreen" right="darkGreen"/>
+		<neighbor left="darkGreen" right="lightGreen"/>
+		<neighbor left="darkGreen" right="lightGreen"/>
+		
+	</neighbors>
+	<subsets>
+		<subset name="map">
+			<tile name="blue"/>
+			<tile name="lightGreen"/>
+			<tile name="darkGreen"/>
+			<tile name="tan"/>
+		</subset>
+	</subsets>
+</set>
